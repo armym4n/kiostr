@@ -3,7 +3,6 @@
 $server_key = "SB-Mid-server-jtGsYTCoqU2iZLcUSbt46bvG";
 
 $is_production = false;
-
 $api_url = $is_production ? 'https://app.midtrans.com/snap/v1/transactions' : 'https://app.sandbox.midtrans.com/snap/v1/transactions';
 
 
@@ -52,4 +51,3 @@ function chargeAPI($api_url, $server_key, $request_body){
   );
   return $result; 
 }
->
